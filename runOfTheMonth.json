@@ -1,0 +1,35 @@
+[
+    {
+    "round": 400,
+    "runner": "Jakilip",
+    "version": "v45.3",
+    "imageLink": "leaderboard/CHIMPS/images/Jakilip1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube video 1",
+        "link": "https://www.youtube.com/watch?v=mj7ryntpAao&ab_channel=Jakilip"
+      },
+      {
+        "name": "Youtube video 2",
+        "link": "https://youtu.be/n4UrEqFUPtE"
+      },
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+      }
+    ],
+    "notes": "Discord: jakilip, Ninjas are boring",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  }
+]

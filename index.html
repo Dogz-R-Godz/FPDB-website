@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The largest database in BTD6 history at 2tb large! Lookup any round you want in freeplay. Get data from the database itself. Verify a save is legit, and figure out how much money you will make in CHIMPS by a certain round!">
+    <title>BTD6 Freeplay Database | FreeplayDatabase.org</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <!-- Google Fonts for better typography -->
+    
+</head>
+<body>
+    <div class="nav-container">
+        <button class="nav-button" id="homeBtn">Home</button>
+        <button class="nav-button" id="roundBtn">Round Predictor</button>
+        <button class="nav-button" id="leaderBtn">Leaderboard</button>
+    </div>
+
+    <div class="parent">
+        <div class="container">
+            
+            <h1>Round Data Getter</h1>
+            <p>Aproximately 99.9% accuracy</p>
+            
+            <form id="roundForm" novalidate>
+                <div class="form-group">
+                    <label for="file">Upload a save file or input a seed:</label>
+                    <input type="number" id="seed" name="seed" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                    <input type="file" id="seedFile" name="seedFile" accept=".SAVE" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="startRound">Starting Round:</label>
+                    <input type="number" id="startRound" name="startRound" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                </div>
+
+                <div class="form-group">
+                    <label for="endRound">Ending Round:</label>
+                    <input type="number" id="endRound" name="endRound" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                </div>
+
+                <fieldset>
+                    <legend>Info to show:</legend>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="options" value="Find Cash"> Cash</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="options" value="Find RBE"> RBE</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="options" value="Find Send Time"> Send Time</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="options" value="Find FBADs"> FBADs</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="options" value="Find BADs"> BADs</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="options" value="Show Full Round"> Full Round</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="error" class="error"></p>
+        </div>
+        <div class="roundData" id="round_data">
+            
+        </div>
+    </div>
+    <script src="scripter.js"></script>
+</body>
+</html>

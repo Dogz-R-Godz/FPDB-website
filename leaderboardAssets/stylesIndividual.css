@@ -1,0 +1,229 @@
+/* Reset Some Default Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(135deg, #303438, #19222c); */
+    
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
+
+    background-image:radial-gradient(circle,transparent 0,rgba(0,0,0,1) 100%),url("../leaderboardAssets/backgroundThing.webp");
+    background-color: #007fff;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    position: relative; /* stay at the top of the page */
+    top: 0;
+    left: 0;
+    /* background-color: #222; */
+    background: rgba(0, 0, 0, 0.3);
+    /* backdrop-filter: blur(16px) brightness(0.5); */
+    
+}
+
+  /* Navigation bar button styles */
+.nav-button {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    /* backdrop-filter: blur(16px) brightness(0.5); */
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.runContainer {
+    display: flex;
+    width: 90%;
+    min-height: 95vh;
+    height: fit-content;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #699BD9;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #2B496F; */
+
+}
+
+.imageContainer {
+    width: 48%;
+    height: fit-content;
+    margin: 1%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.runImg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.runInfoContainer {
+    min-width: 48%;
+    width: fit-content;
+    min-height: 50%;
+    height: fit-content;
+    margin: 1%;
+}
+
+.runInfo {
+    color: white;
+    max-width: 48vh;
+    
+}
+
+.heroExplainer {
+    display:flex;
+    align-items: center;
+}
+
+.heroInfo {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroImg {
+    max-height: 180px;
+    width: min-content;
+}
+
+.heroName {
+    color: white;
+}
+
+.links {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.linkCombo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.linkName {
+    color: white;
+    margin: 10px;
+}
+
+.nonYtLink {
+    color: white;
+    font-size: 2em;
+}
+
+.ytVideoEmbed {
+    width: 500px;
+    height: 253px;
+}
+
+.badges {
+    display: flex;
+    height: max-content;
+    width: max-content;
+    min-width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.5);
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badgesTitle {
+    color: white;
+    margin-bottom:50px
+}
+
+.badgesContainer {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:max-content;
+    margin:auto;
+    margin-bottom:0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.qualityDiv {
+    display:inline-block;
+    position: relative;
+}
+
+.runQualityTooltip {
+    display:block;
+    position:absolute;
+    bottom:100%;
+    width:max-content;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    z-index: 10; /* Ensure tooltip is above other content */
+    opacity: 0; /* Start hidden */
+    visibility: hidden; /* Also hide from screen readers/events */
+    transition: opacity 0.2s ease, visibility 0.2s ease; /* Smooth transition */
+    margin-bottom: 5px; /* Small gap between tooltip and image */
+    pointer-events: none; /* Allows hovering over the image even if tooltip overlaps */
+    font-size: 1.5rem; /* Smaller text size */
+    padding:5px;
+    
+}
+
+.qualityBadge {
+    width: 200px;
+    height: 200px;
+}
+
+.qualityDiv:hover .runQualityTooltip {
+    opacity: 1;
+    visibility: visible;
+}

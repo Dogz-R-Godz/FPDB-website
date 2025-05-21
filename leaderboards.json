@@ -1,0 +1,765 @@
+{
+  "CHIMPS": [
+    {
+      "round": 500,
+      "runner": "chinman",
+      "version": "43.x",
+      "imageLink": "leaderboard/CHIMPS/images/chinman1.png",
+      "category": "CHIMPS",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Reddit post",
+          "link": "https://www.reddit.com/r/btd6/comments/1eezsla/new_chimps_wr_r500_v43/"
+        }
+      ],
+      "notes": "discord: manofchin",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 452,
+      "runner": "Mackan Rules",
+      "version": "38",
+      "imageLink": "leaderboard/CHIMPS/images/Mackan2.png",
+      "category": "CHIMPS (temple bug)",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://www.youtube.com/watch?v=8_m_LgoE70s"
+        }
+      ],
+      "notes": "Discord: mackanrules\nDone using temple bug",
+      "modded": 0,
+      "bugged": 1
+    },
+    {
+      "round": 436,
+      "runner": "Qgthauy",
+      "version": "37",
+      "imageLink": "leaderboard/CHIMPS/images/Qgthauy1.png",
+      "category": "CHIMPS (temple bug)",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=jG5Zc7hXruI"
+        }
+      ],
+      "notes": "Done using temple bug.",
+      "modded": 0,
+      "bugged": 1
+    },
+    {
+      "round": 432,
+      "runner": "Peter",
+      "version": "40.0",
+      "imageLink": "leaderboard/CHIMPS/images/Peter2.png",
+      "category": "CHIMPS",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Reddit post",
+          "link": "https://www.reddit.com/r/btd6/comments/192gimh/chimps_wr_after_v39/"
+        }
+      ],
+      "notes": "Discord: somthingrandom312",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+        "round": 402,
+        "runner": "Growkid",
+        "version": "v48.2",
+        "imageLink": "leaderboard/Images/Growkid1.png",
+        "hero": [
+          "Ezili"
+        ],
+        "links": [],
+        "notes": "No ninja spam",
+        "modded": 0,
+        "coop": 0,
+        "noHero": 0,
+        "noMk": 1,
+        "spaceRestricted": 0,
+        "powerless": 1,
+        "bugged": 0,
+        "map": "Logs",
+        "gamemode": "CHIMPS"
+      },
+    {
+      "round": 401,
+      "runner": "Vlip",
+      "version": "45.3",
+      "imageLink": "leaderboard/CHIMPS/images/Vlip1.png",
+      "category": "Chimps",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://m.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "name": "Discord link",
+          "link": "https://discord.com/channels/1092453876726239235/1092455125169225778/1314671057105584168"
+        }
+      ],
+      "notes": "Discord: real_vlip",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 400,
+      "runner": "Jakilip",
+      "version": "45.3",
+      "imageLink": "leaderboard/CHIMPS/images/Jakilip1.png",
+      "category": "Chimps ninjaless",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube video 1",
+          "link": "https://www.youtube.com/watch?v=mj7ryntpAao&ab_channel=Jakilip"
+        },
+        {
+          "name": "Youtube video 2",
+          "link": "https://youtu.be/n4UrEqFUPtE"
+        },
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+        }
+      ],
+      "notes": "Discord: jakilip",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 300,
+      "runner": "the_steal",
+      "version": "47.x",
+      "imageLink": "leaderboard/CHIMPS/images/steal2.png",
+      "category": "CHIMPS",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube",
+          "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+        }
+      ],
+      "notes": "Discord: the_steal\nchallenge editor, code: ZFGVGOO",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "CHIMPSCoop": [],
+  "EasyTotal": [
+    {
+      "round": 969,
+      "runner": "Raxzor",
+      "version": "44.0",
+      "imageLink": "leaderboard/Easy/images/Raxzor1.png",
+      "category": "Easy Powered",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=4ZKijKTghbI&ab_channel=Raxzor"
+        }
+      ],
+      "notes": "",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 700,
+      "runner": "Happiness",
+      "version": "43.0",
+      "imageLink": "leaderboard/Easy/images/Happiness1.png",
+      "category": "Easy Powered Lotnless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=_3N3bD7L3Qw"
+        }
+      ],
+      "notes": "Discord: happiness8580",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 688,
+      "runner": "DogzTheFemboy",
+      "version": "44.0",
+      "imageLink": "leaderboard/Easy/images/Dogz1.png",
+      "category": "Easy powered lotnless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=19btwArs-YY&t=6s&ab_channel=DogzTheFemboy"
+        },
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@DogzTheFemboy"
+        }
+      ],
+      "notes": "Discord: dogzrgodz",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 609,
+      "runner": "Mackan Rules",
+      "version": "36.0",
+      "imageLink": "leaderboard/Easy/images/Mackan1.png",
+      "category": "Easy Powered Lotnless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://www.youtube.com/watch?v=_lPtUanqfUw"
+        }
+      ],
+      "notes": "Discord: mackanrules",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 554,
+      "runner": "the_steal",
+      "version": "47.3",
+      "imageLink": "leaderboard/Easy/images/steal3.png",
+      "category": "Easy Powerless",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Unlisted youtube video",
+          "link": "https://youtu.be/qa0VSm7almI"
+        },
+        {
+          "name": "Reddit post",
+          "link": "https://www.reddit.com/r/btd6/comments/1jlpebh/new_powerless_freeplay_world_record_r554/"
+        }
+      ],
+      "notes": "Discord: the_steal. Run isnt finished. This is a placeholder.",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 553,
+      "runner": "Peter",
+      "version": "43.x",
+      "imageLink": "leaderboard/Easy/images/Peter1.png",
+      "category": "Easy Powerless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://drive.google.com/file/d/1ls9c41U80Yjlm2HlO2sD3HkFS-Eg6Gmc/view?usp=sharing"
+        }
+      ],
+      "notes": "Discord: somthingrandom312",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 550,
+      "runner": "Andrey1324",
+      "version": "47.0",
+      "imageLink": "leaderboard/Easy/images/Andrey1.png",
+      "category": "Easy Powerless",
+      "hero": "Ezili",
+      "links": [],
+      "notes": "Discord: cstimer",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 542,
+      "runner": "Jakilip",
+      "version": "44",
+      "imageLink": "leaderboard/Easy/images/Jakilip2.png",
+      "category": "Easy Powerless",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+        }
+      ],
+      "notes": "Discord: jakilip",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 514,
+      "runner": "the_steal",
+      "version": "43.0",
+      "imageLink": "leaderboard/Easy/images/steal1.png",
+      "category": "Easy Powerless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Youtube",
+          "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+        }
+      ],
+      "notes": "Discord: @the_steal",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 501,
+      "runner": "Ayn234",
+      "version": "46.0",
+      "imageLink": "leaderboard/Easy/images/Ayn1.png",
+      "category": "Easy Powerless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "More proof",
+          "link": "https://discord.com/channels/1092453876726239235/1092453877791600692/1323152070693355561"
+        },
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@Ayn234/videos"
+        }
+      ],
+      "notes": "discord: ayn234",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "EasyPowerless": [
+    {
+      "round": 554,
+      "runner": "the_steal",
+      "version": "47.3",
+      "imageLink": "leaderboard/Easy/images/steal3.png",
+      "category": "Easy Powerless",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Unlisted youtube video",
+          "link": "https://youtu.be/qa0VSm7almI"
+        },
+        {
+          "name": "Reddit post",
+          "link": "https://www.reddit.com/r/btd6/comments/1jlpebh/new_powerless_freeplay_world_record_r554/"
+        }
+      ],
+      "notes": "Discord: the_steal. Run isnt finished. This is a placeholder.",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 553,
+      "runner": "Peter",
+      "version": "43.x",
+      "imageLink": "leaderboard/Easy/images/Peter1.png",
+      "category": "Easy Powerless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://drive.google.com/file/d/1ls9c41U80Yjlm2HlO2sD3HkFS-Eg6Gmc/view?usp=sharing"
+        }
+      ],
+      "notes": "Discord: somthingrandom312",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 550,
+      "runner": "Andrey1324",
+      "version": "47.0",
+      "imageLink": "leaderboard/Easy/images/Andrey1.png",
+      "category": "Easy Powerless",
+      "hero": "Ezili",
+      "links": [],
+      "notes": "Discord: cstimer",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 542,
+      "runner": "Jakilip",
+      "version": "44.0",
+      "imageLink": "leaderboard/Easy/images/Jakilip2.png",
+      "category": "Easy Powerless",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+        }
+      ],
+      "notes": "Discord: jakilip",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 514,
+      "runner": "the_steal",
+      "version": "43.0",
+      "imageLink": "leaderboard/Easy/images/steal1.png",
+      "category": "Easy Powerless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Youtube",
+          "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+        }
+      ],
+      "notes": "Discord: @the_steal",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 501,
+      "runner": "Ayn234",
+      "version": "46.0",
+      "imageLink": "leaderboard/Easy/images/Ayn1.png",
+      "category": "Easy Powerless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "More proof",
+          "link": "https://discord.com/channels/1092453876726239235/1092453877791600692/1323152070693355561"
+        },
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@Ayn234/videos"
+        }
+      ],
+      "notes": "discord: ayn234",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "EasyPowered": [
+    {
+      "round": 969,
+      "runner": "Raxzor",
+      "version": "44.0",
+      "imageLink": "leaderboard/Easy/images/Raxzor1.png",
+      "category": "Easy Powered",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=4ZKijKTghbI&ab_channel=Raxzor"
+        }
+      ],
+      "notes": "",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "EasyPoweredLotnless": [
+    {
+      "round": 700,
+      "runner": "Happiness",
+      "version": "43.0",
+      "imageLink": "leaderboard/Easy/images/Happiness1.png",
+      "category": "Easy Powered Lotnless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=_3N3bD7L3Qw"
+        }
+      ],
+      "notes": "Discord: happiness8580",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 688,
+      "runner": "DogzTheFemboy",
+      "version": "44.0",
+      "imageLink": "leaderboard/Easy/images/Dogz1.png",
+      "category": "Easy powered lotnless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=19btwArs-YY&t=6s&ab_channel=DogzTheFemboy"
+        },
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@DogzTheFemboy"
+        }
+      ],
+      "notes": "Discord: dogzrgodz",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 609,
+      "runner": "Mackan Rules",
+      "version": "36.0",
+      "imageLink": "leaderboard/Easy/images/Mackan1.png",
+      "category": "Easy Powered Lotnless",
+      "hero": "Adora",
+      "links": [
+        {
+          "name": "Video",
+          "link": "https://www.youtube.com/watch?v=_lPtUanqfUw"
+        }
+      ],
+      "notes": "Discord: mackanrules",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "EasyCoop": [],
+  "PrimaryOnly": [
+    {
+      "round": 261,
+      "runner": "DogzTheFemboy",
+      "version": "47.3",
+      "imageLink": "leaderboard/PrimaryOnly/images/Dogz3.png",
+      "category": "Primary Only",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@DogzTheFemboy"
+        }
+      ],
+      "notes": "Discord: dogzrgodz, video coming soon I think",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 258,
+      "runner": "Jakilip",
+      "version": "47.3",
+      "imageLink": "leaderboard/PrimaryOnly/images/Jakilip3.png",
+      "category": "Primary Only",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+        }
+      ],
+      "notes": "Discord: jakilip, extra notes: wants adora to dominate him. I'm not even joking...",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 254,
+      "runner": "Lily",
+      "version": "47.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Lily1",
+      "category": "Primary Only",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube",
+          "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+        }
+      ],
+      "notes": "Discord: ggdotlol",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 254,
+      "runner": "Konalii",
+      "version": "47.3",
+      "imageLink": "leaderboard/PrimaryOnly/images/Konalii4.png",
+      "category": "Primary Only",
+      "hero": "Ben",
+      "links": [
+        {
+          "name": "Unlisted youtube video",
+          "link": "https://youtu.be/ciGd5WGut3Y?feature=shared"
+        }
+      ],
+      "notes": "Discord: konalii",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 251,
+      "runner": "DogzTheFemboy",
+      "version": "47.3",
+      "imageLink": "leaderboard/PrimaryOnly/images/Dogz2.png",
+      "category": "Primary Only Geraldo",
+      "hero": "Geraldo",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@DogzTheFemboy"
+        }
+      ],
+      "notes": "Discord: dogzrgodz",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 246,
+      "runner": "Peter",
+      "version": "46.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Peter2.png",
+      "category": "Primary only",
+      "hero": "Ezili",
+      "links": [],
+      "notes": "Discord: somthingrandom312",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 245,
+      "runner": "Lily",
+      "version": "46.x",
+      "imageLink": "leaderboard/PrimaryOnly/images/Lily2.png",
+      "category": "Primary Only",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+        }
+      ],
+      "notes": "Discord: ggdotlol\nDifferent map",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 243,
+      "runner": "Konali",
+      "version": "46.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Konali1.png",
+      "category": "Primary only",
+      "hero": "Geraldo",
+      "links": [
+        {
+          "name": "Other image",
+          "link": "https://discord.com/channels/1092453876726239235/1092455452320743474/1335912353845215285"
+        }
+      ],
+      "notes": "discord: konalii",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 242,
+      "runner": "Lily",
+      "version": "47.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Lily3.png",
+      "category": "Primary Only Sulfur Springs",
+      "hero": "Benjamin",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+        }
+      ],
+      "notes": "Discord: ggdotlol",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 236,
+      "runner": "ISAB",
+      "version": "47.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Isab1.png",
+      "category": "Primary only (QOL mods)",
+      "hero": "Benjamin",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=jmcFVF5X3G8"
+        }
+      ],
+      "notes": "Discord: isab\nvideo claims world record. Not the case.",
+      "modded": 1,
+      "bugged": 0
+    },
+    {
+      "round": 232,
+      "runner": "Iplaybtd4",
+      "version": "47.3",
+      "imageLink": "leaderboard/PrimaryOnly/images/Iplaybtd41.png",
+      "category": "Primary Only",
+      "hero": "Ezili",
+      "links": [],
+      "notes": "",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 211,
+      "runner": "Lily",
+      "version": "47.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Lily4.png",
+      "category": "Primary Only No Harvest",
+      "hero": "Ezili",
+      "links": [
+        {
+          "name": "Youtube",
+          "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+        }
+      ],
+      "notes": "Discord: ggdotlol",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "PrimaryOnlyFlooded": [
+    {
+      "round": 196,
+      "runner": "Konalii",
+      "version": "47.3",
+      "imageLink": "leaderboard/PrimaryOnly/images/Konalii3.png",
+      "category": "Primary Only Flooded Valley",
+      "hero": "Benjamin",
+      "links": [],
+      "notes": "Discord: konalii\nMore info in Mackan Rules's server",
+      "modded": 0,
+      "bugged": 0
+    },
+    {
+      "round": 140,
+      "runner": "the_steal",
+      "version": "44.0",
+      "imageLink": "leaderboard/PrimaryOnly/images/Steal3.png",
+      "category": "Primary Only Flooded Valley",
+      "hero": "Brickell",
+      "links": [
+        {
+          "name": "Youtube video",
+          "link": "https://www.youtube.com/watch?v=aPSoNZw2QQo&ab_channel=the_steal"
+        }
+      ],
+      "notes": "Discord: the_steal",
+      "modded": 0,
+      "bugged": 0
+    }
+  ],
+  "PrimaryOnlyCoop": [
+    {
+      "round": 280,
+      "runner": "the_steal",
+      "version": "48.1",
+      "imageLink": "leaderboard/PrimaryOnly/images/Steal4.png",
+      "category": "Primary Only Coop",
+      "hero": "Geraldo 3x Ezili",
+      "links": [
+        {
+          "name": "Youtube channel",
+          "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+        }
+      ],
+      "notes": "Discord: the_steal, run uses coop mod, which is allowed",
+      "modded": 0,
+      "bugged": 0
+    }
+  ]
+}

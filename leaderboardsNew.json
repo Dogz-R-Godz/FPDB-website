@@ -1,0 +1,924 @@
+[
+  {
+    "round": 969,
+    "runner": "Raxzor",
+    "version": "v44.0",
+    "imageLink": "leaderboard/Easy/images/Raxzor1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://www.youtube.com/watch?v=4ZKijKTghbI&ab_channel=Raxzor"
+      }
+    ],
+    "notes": "",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 0,
+    "usesBugs": 0,
+    "map": "Resort",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 700,
+    "runner": "Happiness",
+    "version": "v43.0",
+    "imageLink": "leaderboard/Easy/images/Happiness1.png",
+    "hero": [
+      "Adora"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://www.youtube.com/watch?v=_3N3bD7L3Qw"
+      }
+    ],
+    "notes": "Discord: happiness8580",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 0,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 688,
+    "runner": "DogzTheFemboy",
+    "version": "v44.0",
+    "imageLink": "leaderboard/Easy/images/Dogz1.png",
+    "hero": [
+      "Adora"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://www.youtube.com/watch?v=19btwArs-YY&t=6s&ab_channel=DogzTheFemboy"
+      },
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/@DogzTheFemboy"
+      }
+    ],
+    "notes": "Discord: dogzrgodz",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 0,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 609,
+    "runner": "Mackan Rules",
+    "version": "v36.0",
+    "imageLink": "leaderboard/Easy/images/Mackan1.png",
+    "hero": [
+      "Adora"
+    ],
+    "links": [
+      {
+        "name": "Video",
+        "link": "https://www.youtube.com/watch?v=_lPtUanqfUw"
+      }
+    ],
+    "notes": "Discord: mackanrules",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 0,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 554,
+    "runner": "the_steal",
+    "version": "v47.3",
+    "imageLink": "leaderboard/Easy/images/steal3.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Unlisted youtube video",
+        "link": "https://youtu.be/qa0VSm7almI"
+      },
+      {
+        "name": "Reddit post",
+        "link": "https://www.reddit.com/r/btd6/comments/1jlpebh/new_powerless_freeplay_world_record_r554/"
+      }
+    ],
+    "notes": "Discord: the_steal. Run isnt finished. This is a placeholder.",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 553,
+    "runner": "Peter",
+    "version": "v43.x",
+    "imageLink": "leaderboard/Easy/images/Peter1.png",
+    "hero": [
+      "Adora"
+    ],
+    "links": [
+      {
+        "name": "Video",
+        "link": "https://drive.google.com/file/d/1ls9c41U80Yjlm2HlO2sD3HkFS-Eg6Gmc/view?usp=sharing"
+      }
+    ],
+    "notes": "Discord: somthingrandom312",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 550,
+    "runner": "cstimer",
+    "version": "v47.0",
+    "imageLink": "leaderboard/Easy/images/Andrey1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [],
+    "notes": "Discord: Andrey1324",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 542,
+    "runner": "Jakilip",
+    "version": "v44.0",
+    "imageLink": "leaderboard/Easy/images/Jakilip2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+      }
+    ],
+    "notes": "Discord: jakilip",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 514,
+    "runner": "the_steal",
+    "version": "v43.0",
+    "imageLink": "leaderboard/Easy/images/steal1.png",
+    "hero": [
+      "Adora"
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+      }
+    ],
+    "notes": "Discord: @the_steal",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 501,
+    "runner": "Ayn234",
+    "version": "v46.0",
+    "imageLink": "leaderboard/Easy/images/Ayn1.png",
+    "hero": [
+      "Adora"
+    ],
+    "links": [
+      {
+        "name": "More proof",
+        "link": "https://discord.com/channels/1092453876726239235/1092453877791600692/1323152070693355561"
+      },
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/@Ayn234/videos"
+      }
+    ],
+    "notes": "discord: ayn234",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 500,
+    "runner": "chinman",
+    "version": "v43.x",
+    "imageLink": "leaderboard/CHIMPS/images/chinman1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Reddit post",
+        "link": "https://www.reddit.com/r/btd6/comments/1eezsla/new_chimps_wr_r500_v43/"
+      }
+    ],
+    "notes": "discord: manofchin",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 452,
+    "runner": "Mackan Rules",
+    "version": "v38.0",
+    "imageLink": "leaderboard/CHIMPS/images/Mackan2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Video",
+        "link": "https://www.youtube.com/watch?v=8_m_LgoE70s"
+      }
+    ],
+    "notes": "Discord: mackanrules\nDone using temple bug",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 1,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 436,
+    "runner": "Qgthauy",
+    "version": "v37.0",
+    "imageLink": "leaderboard/CHIMPS/images/Qgthauy1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://www.youtube.com/watch?v=jG5Zc7hXruI"
+      }
+    ],
+    "notes": "Done using temple bug.",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 1,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 432,
+    "runner": "Peter",
+    "version": "v40.0",
+    "imageLink": "leaderboard/CHIMPS/images/Peter2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Reddit post",
+        "link": "https://www.reddit.com/r/btd6/comments/192gimh/chimps_wr_after_v39/"
+      }
+    ],
+    "notes": "Discord: somthingrandom312",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 402,
+    "runner": "Growkid",
+    "version": "v48.2",
+    "imageLink": "leaderboard/Images/Growkid1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [],
+    "notes": "No ninja spam",
+    "modded": 0,
+    "coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 401,
+    "runner": "Vlip",
+    "version": "v45.3",
+    "imageLink": "leaderboard/CHIMPS/images/Vlip1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://m.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "name": "Discord link",
+        "link": "https://discord.com/channels/1092453876726239235/1092455125169225778/1314671057105584168"
+      }
+    ],
+    "notes": "Discord: real_vlip",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 400,
+    "runner": "Jakilip",
+    "version": "v45.3",
+    "imageLink": "leaderboard/CHIMPS/images/Jakilip1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube video 1",
+        "link": "https://www.youtube.com/watch?v=mj7ryntpAao&ab_channel=Jakilip"
+      },
+      {
+        "name": "Youtube video 2",
+        "link": "https://youtu.be/n4UrEqFUPtE"
+      },
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+      }
+    ],
+    "notes": "Discord: jakilip, Ninjas are boring",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 320,
+    "runner": "Ixenderous",
+    "version": "v46.3",
+    "imageLink": "leaderboard/Images/Ixen1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [],
+    "notes": "Discord: ixenderous\ndm me if you have any questions",
+    "modded": 1,
+    "coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 1,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Cornfield",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 315,
+    "runner": "Nudzimisie",
+    "version": "v48.2",
+    "imageLink": "leaderboard/Images/Nudzimisie1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Video footage",
+        "link": "https://youtu.be/65EUX6PMZKw"
+      }
+    ],
+    "notes": "",
+    "modded": 0,
+    "coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 300,
+    "runner": "MaxSilver",
+    "version": "v46.x",
+    "imageLink": "leaderboard/Images/MaxSilver2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Discord link",
+        "link": "https://discord.com/channels/1092453876726239235/1092455452320743474/1322388552570634300"
+      }
+    ],
+    "notes": "discord: MaxSilver, Ezpz. Also old wr afaik",
+    "modded": 0,
+    "coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Easy Standard"
+  },
+  {
+    "round": 300,
+    "runner": "the_steal",
+    "version": "v47.x",
+    "imageLink": "leaderboard/CHIMPS/images/steal2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+      }
+    ],
+    "notes": "Discord: the_steal\nChallenge editor, code: ZFGVGOO",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 1,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "CHIMPS"
+  },
+  {
+    "round": 280,
+    "runner": "the_steal",
+    "version": "48.1",
+    "imageLink": "leaderboard/PrimaryOnly/images/Steal4.png",
+    "hero": [
+      "Geraldo",
+      "Ezili",
+      "Ezili",
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/channel/UC04oDPTj6rB__MPSTUcAuLA"
+      }
+    ],
+    "notes": "Discord: the_steal, run uses coop mod, which is allowed",
+    "modded": 1,
+    "Coop": 1,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Sulfur Springs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 261,
+    "runner": "DogzTheFemboy",
+    "version": "v47.3",
+    "imageLink": "leaderboard/PrimaryOnly/images/Dogz3.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/@DogzTheFemboy"
+      }
+    ],
+    "notes": "Discord: dogzrgodz, video coming soon I think",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 258,
+    "runner": "Jakilip",
+    "version": "v47.3",
+    "imageLink": "leaderboard/PrimaryOnly/images/Jakilip3.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/channel/UCOmHqDGD3gQIpCP36d7UV4A"
+      }
+    ],
+    "notes": "Discord: jakilip",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 254,
+    "runner": "Lily",
+    "version": "v47.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Lily1",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+      }
+    ],
+    "notes": "Discord: ggdotlol",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 254,
+    "runner": "Konalii",
+    "version": "v47.3",
+    "imageLink": "leaderboard/PrimaryOnly/images/Konalii4.png",
+    "hero": [
+      "Ben"
+    ],
+    "links": [
+      {
+        "name": "Unlisted youtube video",
+        "link": "https://youtu.be/ciGd5WGut3Y?feature=shared"
+      }
+    ],
+    "notes": "Discord: konalii",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 251,
+    "runner": "DogzTheFemboy",
+    "version": "v47.3",
+    "imageLink": "leaderboard/PrimaryOnly/images/Dogz2.png",
+    "hero": [
+      "Geraldo"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/@DogzTheFemboy"
+      }
+    ],
+    "notes": "Discord: dogzrgodz",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 246,
+    "runner": "Peter",
+    "version": "v46.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Peter2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [],
+    "notes": "Discord: somthingrandom312",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Sulfur Springs",
+    "gamemode": "Primary only"
+  },
+  {
+    "round": 245,
+    "runner": "Lily",
+    "version": "v46.x",
+    "imageLink": "leaderboard/PrimaryOnly/images/Lily2.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+      }
+    ],
+    "notes": "Discord: ggdotlol\nDifferent map",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Sulfur Springs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 243,
+    "runner": "Konali",
+    "version": "v46.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Konali1.png",
+    "hero": [
+      "Geraldo"
+    ],
+    "links": [
+      {
+        "name": "Other image",
+        "link": "https://discord.com/channels/1092453876726239235/1092455452320743474/1335912353845215285"
+      }
+    ],
+    "notes": "discord: konalii",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Resort",
+    "gamemode": "Primary only"
+  },
+  {
+    "round": 242,
+    "runner": "Lily",
+    "version": "v47.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Lily3.png",
+    "hero": [
+      "Benjamin"
+    ],
+    "links": [
+      {
+        "name": "Youtube channel",
+        "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+      }
+    ],
+    "notes": "Discord: ggdotlol",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Sulfur Springs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 236,
+    "runner": "ISAB",
+    "version": "v47.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Isab1.png",
+    "hero": [
+      "Benjamin"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://www.youtube.com/watch?v=jmcFVF5X3G8"
+      }
+    ],
+    "notes": "Discord: isab\nvideo claims world record. Not the case.",
+    "modded": 1,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Sulfur Springs",
+    "gamemode": "Primary only"
+  },
+  {
+    "round": 232,
+    "runner": "MaxSilver",
+    "version": "v45.3",
+    "imageLink": "leaderboard/Images/MaxSilver1.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Discord link",
+        "link": "https://discord.com/channels/1092453876726239235/1092453877791600692/1302183420205465663"
+      }
+    ],
+    "notes": "discord: MaxSilver, Did the run before the tack paragon was announced",
+    "modded": 0,
+    "coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Sulfur Springs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 232,
+    "runner": "Iplaybtd4",
+    "version": "v47.3",
+    "imageLink": "leaderboard/PrimaryOnly/images/Iplaybtd41.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [],
+    "notes": "",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Logs",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 211,
+    "runner": "Lily",
+    "version": "v47.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Lily4.png",
+    "hero": [
+      "Ezili"
+    ],
+    "links": [
+      {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/@ILoveLiliesXOXO"
+      }
+    ],
+    "notes": "Discord: ggdotlol",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 1,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Cornfield",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 196,
+    "runner": "Konalii",
+    "version": "v47.3",
+    "imageLink": "leaderboard/PrimaryOnly/images/Konalii3.png",
+    "hero": [
+      "Benjamin"
+    ],
+    "links": [],
+    "notes": "Discord: konalii\nMore info in Mackan Rules's server",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Flooded Valley",
+    "gamemode": "Primary Only"
+  },
+  {
+    "round": 140,
+    "runner": "the_steal",
+    "version": "v44.0",
+    "imageLink": "leaderboard/PrimaryOnly/images/Steal3.png",
+    "hero": [
+      "Admiral Brickell"
+    ],
+    "links": [
+      {
+        "name": "Youtube video",
+        "link": "https://www.youtube.com/watch?v=aPSoNZw2QQo&ab_channel=the_steal"
+      }
+    ],
+    "notes": "Discord: the_steal",
+    "modded": 0,
+    "Coop": 0,
+    "noHero": 0,
+    "noMk": 0,
+    "spaceRestricted": 0,
+    "powerless": 1,
+    "usesBugs": 0,
+    "map": "Flooded Valley",
+    "gamemode": "Primary Only"
+  }
+]

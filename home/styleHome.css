@@ -1,0 +1,155 @@
+/* Reset Some Default Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image:url('homeBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    position: fixed; /* stay at the top of the page */
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+  /* Navigation bar button styles */
+.nav-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    /* background-color: #444; */
+}
+
+.parent {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* background: #555; */
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border-color: white;
+    
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    text-align: center;
+    overflow:auto;
+    margin-bottom: 25px;
+    color: #d0d0d0;
+    font-size: 20px;
+}
+
+.selfPromo {
+    display: block;
+    position: fixed;
+    max-width: 500px;
+    height: 5%;
+    bottom: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    align-content: center;
+}
+
+.youtubeTutorial {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    align-content: center;
+}
+
+/* #link {
+    color: #d0d0d0;
+    font-size: 22px;
+    text-align: left;
+} */
+
+a { 
+    color: #d0d0d0; 
+    
+}
+
+p {
+    color: #d0d0d0;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    /* background-color: #007bff; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}

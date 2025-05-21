@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The largest database in BTD6 history at 2tb large! View the leaderboards of all the best players in Easy Powered, Easy Powerless, CHIMPS, and Primary Only.">
+    <title>BTD6 Freeplay Database | FreeplayDatabase.org</title>
+    <link rel="stylesheet" href="leaderboardAssets/stylesLeaderboardType.css">
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <!-- Google Fonts for better typography -->
+    
+</head>
+<body style="background-image:url('../leaderboardAssets/easyBackground.png');">
+    <div class="nav-container">
+        <button class="nav-button" id="homeBtn">Home</button>
+        <button class="nav-button" id="roundBtn">Round Predictor</button>
+        <button class="nav-button" id="leaderBtn">Leaderboard</button>
+    </div>
+
+    <div class="title">
+        <h1>CATEGORIES</h1>
+    </div>
+    <div class="RoTM">
+        <div class="RoTMcontainer" id="runOfTheMonth">
+            <div class="RoTMname">
+                <h1 class="RoTMtitle">RUN OF THE MONTH:</h1>
+                <div class="RoTMRun" id="RoTMRun">
+                    <img class="displayedImageRoTM" id="RoTMImg" src="">
+                    <!-- <div class="textDetails">
+                        <p class="RoTMDetail" id="RoTMRunner">Runner: Jakilip</p>
+                        <p class="RoTMDetail" id="RoTMRound">Round: 400</p>
+                        
+                    </div> -->
+                    
+                </div>
+                <p class="RoTMDetail" id="RoTMNotes">Notes: Ninjas suck</p>
+                <p>Click to see more...</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="parentBig">
+        <div class="container" id="chimps" style="display:block;">
+            <div class="name">
+                <h1 class="titleLink"><a class="titleLink2" href="/leaderboard/detailed?gamemode=CHIMPS&hero=Any">CHIMPS</a></h1>
+                <img class="displayedImage" src="chimps.webp">
+            </div>
+            
+            <div class="runs" id="chimpsRuns">
+            </div>
+            <p>Click to see more...</p>
+        </div>
+        <div class="container" id="easy" style="display:block;">
+            <div class="name">
+                <h1 class="titleLink"><a class="titleLink2" href="/leaderboard/detailed?gamemode=Easy%20Standard&hero=Any">Easy</a></h1>
+                <img class="displayedImage" src="easy.webp">
+            </div>
+            <div class="runs" id="easyRuns">
+                
+            </div>
+            <p>Click to see more...</p>
+        </div>
+        <div class="container" id="primaryOnly" style="display:block;">
+            <div class="name">
+                <h1 class="titleLink"><a class="titleLink2" href="/leaderboard/detailed?gamemode=Primary%20Only&hero=Any">Primary Only</a></h1>
+                <img class="displayedImage" src="prim.webp">
+            </div>
+            <div class="runs" id="primaryRuns">
+                
+            </div>
+            <p>Click to see more...</p>
+            
+        </div>
+    </div>
+    <div class="submissionLink">
+        <p>Submit your runs here: <a id="link" href="https://docs.google.com/forms/d/e/1FAIpQLScJy8VCaSBrGHaPRjrnLUccEiS5W681_KU0wpfPUqd8Q2y8uQ/viewform?usp=sharing" target="_blank">(Google forms link)</a>. Will take a day or two to verify.</p>
+    </div>
+    <script src="leaderboardAssets/scriptLeaderboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The largest database in BTD6 history at 2tb large! Lookup any round you want in freeplay. Get data from the database itself. Verify a save is legit, and figure out how much money you will make in CHIMPS by a certain round!">
+    <title>BTD6 Freeplay Database | FreeplayDatabase.org</title>
+    <link rel="stylesheet" href="../leaderboardAssets/stylesLeaderboardDetailed.css">
+    <link rel="icon" href="../icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <!-- Google Fonts for better typography -->
+    
+</head>
+<body style="background-image:url('../leaderboardAssets/CHIMPSBackground.png');">
+    <div id="loading" class="loadingDiv">
+        <div class="loadingIcon">
+            <div class="loading-container"></div>
+            <img class="loading-head" src="../leaderboardAssets/UpgradeContainerTier5LockedHead.webp">
+            <p class="loading-text">LOADING...</p>
+        </div>
+    </div>
+    <div class="nav-container">
+        <button class="nav-button" id="homeBtn">Home</button>
+        <button class="nav-button" id="roundBtn">Round Predictor</button>
+        <button class="nav-button" id="leaderBtn">Leaderboard</button>
+    </div>
+
+    <div class="leaderboard", id="leaderboard">
+        <div class="filter" id="filter">
+            <div class="filterHeader">
+                <h1 class="filterTitle">Filters</h1>
+            </div>
+            
+            <div class="mapSelector">
+                <div class="form-group">
+                    <label for="mapSelect">Map</label>
+                    <select id="mapSelect" name="mapSelect">
+                        <option value="">Logs</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="gamemodeSelector">
+                <div class="form-group">
+                    <label for="gamemodeSelect">Gamemode</label>
+                    <select id="gamemodeSelect" name="gamemodeSelect">
+                        <option value="">Easy Standard</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="roundFilter">
+                <div class="form-group">
+                    <label for="minRound">Round higher than</label>
+                    <input type="number" id="minRound" name="minRound" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                </div>
+            </div>
+
+            <div class="heroFilter">
+                <div class="form-group">
+                    <fieldset id="Heroes" class="Heroes">
+                        <legend id="infoLeg" class="info_leg">Heroes</legend>
+                        <div class="checkboxes">
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Any">Any</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Admiral Brickell">Admiral Brickell</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Adora">Adora</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Benjamin">Benjamin</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Captain Churchill">Captain Churchill</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Corvus">Corvus</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Etienne">Etienne</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Ezili">Ezili</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Geraldo">Geraldo</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Gwendolin">Gwendolin</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Obyn Greenfoot">Obyn Greenfoot</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Pat Fusty">Pat Fusty</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Psi">Psi</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Quincy">Quincy</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Rosalia">Rosalia</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Sauda">Sauda</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="options" value="Striker Jones">Striker Jones</label>
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                </div>
+                
+            </div>
+
+            
+            <div class="extrasFilter">
+                <div class="form-group">
+                    <fieldset id="Extras" class="Extras">
+                        <legend id="infoLeg" class="info_leg">Extras</legend>
+                        <div class="checkboxes">
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="No Hero">Only No Hero</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="No Monkey Knowledge">Only No Monkey Knowledge</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="Space Restricted">Only Space Restricted</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="Powerless">Only Powerless</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="Coop">Allow Coop</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="Uses Bugs">Allow Uses Bugs</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="optionsExtras" value="QOL Mods">Allow QOL mods</label>
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="sortButtonSpacing">
+                <div class="sortButton" id="sortButton">
+                    <h1>Get Leaderboard Runs</h1>
+                </div>
+            </div>
+            
+
+        </div>
+
+
+        <div class="leaderboardContainer" id="leaderboardContainer">
+            <h1 class="leaderboardTitle">Leaderboard</h1>
+            <div class="runHolder">
+                <div class="runGuide">
+                    <div class="spacingHelper">
+                        <div class="side">
+                            <p class="guideText">Rank</p>
+                        </div>
+                        <div class="side">
+                            <p class="guideText">Player</p>
+                        </div>
+                        <div class="side">
+                            <p class="guideText">Round</p>
+                        </div>
+                        <div class="side">
+                            <p class="guideText">Map</p>
+                        </div>
+                        <div class="side">
+                            <p class="guideText">Gamemode</p>
+                        </div>
+                        <div class="side">
+                            <p class="guideText">Hero</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="actualRuns" id="actualRuns">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    
+
+        
+    </div>
+    <div class="submissionLink">
+        <p>Submit your runs here: <a id="link" href="https://docs.google.com/forms/d/e/1FAIpQLScJy8VCaSBrGHaPRjrnLUccEiS5W681_KU0wpfPUqd8Q2y8uQ/viewform?usp=sharing" target="_blank">(Google forms link)</a>. Will take a day or two to verify.</p>
+    </div>
+    <script src="../leaderboardAssets/scriptLeaderboardDetailed.js"></script>
+</body>
+</html>

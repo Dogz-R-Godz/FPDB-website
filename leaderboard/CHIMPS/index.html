@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The largest database in BTD6 history at 2tb large! Lookup any round you want in freeplay. Get data from the database itself. Verify a save is legit, and figure out how much money you will make in CHIMPS by a certain round!">
+    <title>BTD6 Freeplay Database | FreeplayDatabase.org</title>
+    <link rel="stylesheet" href="../leaderboardAssets/stylesLeaderboardType.css">
+    <link rel="icon" href="../icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../icon.png" type="image/x-icon" />
+    <!-- Google Fonts for better typography -->
+    
+</head>
+<body style="background-image:url('../leaderboardAssets/CHIMPSBackground.png');">
+    <div class="nav-container">
+        <button class="nav-button" id="homeBtn">Home</button>
+        <button class="nav-button" id="roundBtn">Round Predictor</button>
+        <button class="nav-button" id="leaderBtn">Leaderboard</button>
+    </div>
+
+    <div class="title">
+        <h1>CHIMPS</h1>
+        <p>Categories:</p>
+        <p>* - modded or bugged</p>
+    </div>
+
+    <div class="mini-board-selector">
+        <button class="board-selector" id="regularButton">Regular</button>
+        <button class="board-selector" id="coopButton">Coop</button>
+    </div>
+
+    <div class="parent">
+        <div class="container" id="regular" style="display:block;">
+            <h1>Regular</h1>
+            <div class="runs" id="regularRuns">
+                
+            </div>
+        </div>
+        
+        <div class="container" id="coop">
+            <h1>Coop</h1>
+            <div class="runs" id="coopRuns">
+                
+            </div>
+            <p><a class="link" href = "https://github.com/iXendeRouS/SoloCoopMod" target="_blank">Recommended mod for coop</a></p>
+        </div>
+            
+            <!--category, hero, links, notes-->
+        <div class="runContainer" id="individualRun" style="display:none;">
+            <div class="image-display">
+                <img id="displayedImage" src="" alt="Requested image will appear here">
+            </div>
+            <div class="details">
+                <p id="category"></p>
+                <p id="hero"></p>
+                <div id="links">
+
+                </div>
+                <p id="notes"></p>
+                <p id="modded"></p>
+                <p id="bugged"></p>
+            </div>
+            <button class="close" id="closeBut">
+                <img id="closeButton" src="../leaderboardAssets/close.png">
+            </button>
+        </div>
+
+        
+    </div>
+    <div class="submissionLink">
+        <p>Submit your runs here: <a id="link" href="https://docs.google.com/forms/d/e/1FAIpQLScJy8VCaSBrGHaPRjrnLUccEiS5W681_KU0wpfPUqd8Q2y8uQ/viewform?usp=sharing" target="_blank">(Google forms link)</a>. Will take a day or two to verify.</p>
+    </div>
+    <script src="../leaderboardAssets/scriptLeaderboardChimps.js"></script>
+</body>
+</html>

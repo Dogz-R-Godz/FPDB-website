@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The largest database in BTD6 history at 2tb large! Lookup any round you want in freeplay. Put in your seed, the rounds you want, and see what is coming in the future!">
+    <title>BTD6 Freeplay Database | FreeplayDatabase.org</title>
+    <link rel="stylesheet" href="round-predictor/styles.css">
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <!-- Google Fonts for better typography -->
+
+</head>
+<body>
+    <div class="nav-container">
+        <button class="nav-button" id="homeBtn">Home</button>
+        <button class="nav-button" id="roundBtn">Round Predictor</button>
+        <button class="nav-button" id="leaderBtn">Leaderboard</button>
+    </div>
+
+    <div class="parent">
+        <div class="container" id="Container">
+
+            <h1>Round Predictor</h1>
+            <p>Approximately 99.9% accuracy</p>
+            <p>For smaller displays, you might need to zoom out for the full experience</p>
+
+            <form id="roundForm" novalidate>
+                <!-- Profile Upload Section -->
+                <div class="form-group">
+                    <label for="profileFile">Upload Profile.Save (Optional):</label>
+                    <input type="file" id="profileFile" name="profileFile" accept=".Profile.Save,.save"> <!-- Adjust accept if needed -->
+                    <button type="button" id="uploadProfileBtn" class="upload-button">Upload Profile</button>
+                    <p id="uploadStatus" class="upload-status"></p> <!-- Feedback message area -->
+                </div>
+
+                <!-- Map Selection Dropdown -->
+                <div class="form-group">
+                    <label for="mapSelect">Select Map Save (after profile upload):</label>
+                    <select id="mapSelect" name="mapSelect" disabled>
+                        <option value="">-- Upload Profile First --</option>
+                    </select>
+                </div>
+
+                <!-- Manual Seed Input -->
+                <div class="form-group">
+                    <label for="seed">Or Enter Seed Manually:</label>
+                    <input type="number" id="seed" name="seed" min="0" step="1" placeholder="Enter a positive integer" pattern="\d+">
+                </div>
+
+                <!-- Rest of the form remains the same -->
+                <div class="form-group">
+                    <label for="startRound">Starting Round:</label>
+                    <input type="number" id="startRound" name="startRound" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                </div>
+
+                <div class="form-group">
+                    <label for="endRound">Ending Round:</label>
+                    <input type="number" id="endRound" name="endRound" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                </div>
+
+                <fieldset id="extraInfo">
+                    <legend id="infoLeg" class="info_leg">Info to show: (click to hide checkboxes)</legend>
+                    <div id="checkboxes">
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="options" value="Find Cash"> Cash</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="options" value="Find RBE"> RBE</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="options" value="Find Send Time"> Send Time</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="options" value="Find FBADs"> FBADs</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="options" value="Find BADs"> BADs</label>
+                        </div>
+    
+    
+    
+                        <div class="checkbox-group">
+                            <label><input type="radio" name="options" value="Show Visual Rounds" id="VisualRounds"> Visual Rounds </label>
+                        </div>
+    
+                        <div class="checkbox-group">
+                            <label><input type="radio" name="options" value="Show Full Round" id="TechnicalRoundInfo"> Technical Round Info </label>
+                        </div>
+                        <div class="checkbox-group">
+                            <label><input type="radio" name="options" value="Nothing" id="Nothing"> Don't show rounds </label>
+                        </div>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="font" value="Monospace Font"> Use Monospace Font (for technical round info)</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Predict</button>
+            </form>
+            <p id="error" class="error"></p>
+        </div>
+        <div class="roundData" id="round_data">
+        </div>
+    </div>
+    <script src="round-predictor/scripter.js"></script>
+</body>
+</html>
