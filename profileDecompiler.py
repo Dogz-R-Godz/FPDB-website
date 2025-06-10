@@ -13,14 +13,6 @@ def decompile(bytes_data):
     IV_LENGTH = 16
     DERIVE_ITERATIONS = 10
     PASSWORD = '11'
-
-    # Read the input file
-    #input_path = 'Profile (3).Save' #
-    #input_path = 'C:/Program Files (x86)/Steam/userdata/1191181388/960090/local/link/PRODUCTION/current/Profile.Save'
-    #output_path = 'Decrypted_Profile.json'
-
-    #with open(input_path, 'rb') as f:
-        #bytes_data = f.read()
     
 
     # Extract salt and encrypted bytes

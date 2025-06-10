@@ -200,7 +200,7 @@ function getBloonColour(bloon_str) {
 }
 
 
-function compute_round(seed, start, end, options) {
+function compute_round(seed, start, end, options, seedResettingMode, minFBadHighlight, minBadHighlight) {
     document.getElementById('round_data').innerHTML = "";
     seed = Number(seed);
     start = Number(start);
@@ -444,14 +444,38 @@ function compute_round(seed, start, end, options) {
             infoDiv.appendChild(TimeHeader);
             infoDiv.appendChild(FBADHeader);
             infoDiv.appendChild(BADHeader);
+            if (!seedResettingMode) {
+                bloonsDiv.style.display = "block";
+            }
+            else {
+                bloonsDiv.style.display = "none";
+            }
+
+            if (seedResettingMode) {
+                if (minBadHighlight <= round_BADs) {
+                    roundDiv.style.borderColor = "rgb(255, 255, 0)";
+                    roundDiv.style.borderStyle = "solid";
+                    BADHeader.style.color = "rgb(255, 0, 0)";
+                }   
+                if (minFBadHighlight <= round_FBADs) {
+                    roundDiv.style.borderColor = "rgb(255, 255, 0)";
+                    roundDiv.style.borderStyle = "solid";
+                    FBADHeader.style.color = "rgb(255, 0, 0)";
+                }
+            }
+
+            
+            
+            
 
             roundDiv.appendChild(infoDiv);
             roundDiv.appendChild(bloonsDiv);
 
             
 
-
             document.getElementById('round_data').appendChild(roundDiv);
+            
+            
         }
         
 
@@ -461,12 +485,16 @@ function compute_round(seed, start, end, options) {
             
         }
     }
+
+    
+
+    
     return [total_cash, total_RBE, total_time, total_FBADs, total_BADs, full_rounds]
 }
 
 
-var checkboxesDiv = document.getElementById('checkboxes')
-var infoToShow = document.getElementById('infoLeg')
+var checkboxesDiv = document.getElementById('checkboxes');
+var infoToShow = document.getElementById('infoLeg');
 
 infoToShow.addEventListener('click', function() {
     if (checkboxesDiv.style.display == "none") {
@@ -477,8 +505,22 @@ infoToShow.addEventListener('click', function() {
     }
 })
 
+var advSettingsDiv = document.getElementById('advSettings');
+advSettingsDiv.style.display = "none";
+var advancedLeg = document.getElementById('advancedLeg');
 
-function update_html(element, seed, startRound, endRound, selectedOptions) {
+advancedLeg.addEventListener('click', function() {
+    console.log(advSettingsDiv.style.display);
+    if (advSettingsDiv.style.display == "none") {
+        advSettingsDiv.style.display = "block";
+    }
+    else {
+        advSettingsDiv.style.display = "none";
+    }
+})
+
+
+function update_html(element, seed, startRound, endRound, selectedOptions, seedResettingMode, minFBadHighlight, minBadHighlight) {
     // Process the form data here
     //console.log(`Seed: ${seed}, Starting Round: ${startRound}, Ending Round: ${endRound}`);
     //console.log('Selected Options:', selectedOptions);
@@ -494,46 +536,93 @@ function update_html(element, seed, startRound, endRound, selectedOptions) {
     var useMspaceFont = selectedOptions.includes("Monospace Font");
     var fmato = useMspaceFont ? "<tt>" : "";
     var fmatc = useMspaceFont ? "</tt>" : "";
-    var data = compute_round(seed, startRound, endRound, selectedOptions);
+    var data = compute_round(seed, startRound, endRound, selectedOptions, seedResettingMode, minFBadHighlight, minBadHighlight);
+    
     //[total_cash, total_RBE, total_time, total_FBADs, total_BADs, full_rounds]
     //console.log(data);
-    var strArray = [];
-    strArray.push("<p>Seed: " + seed + "</p>");
-    if (getCash) strArray.push("<p>" + data[0] + " cash </p>");
-    //console.log(data[0] + "cash");
-    if (getRBE) strArray.push("<p>" + data[1] + " RBE </p>");
-    if (getSendTime) strArray.push("<p>" + data[2] + " seconds </p>");
-    if (getFBADs) strArray.push("<p>" +  data[3] + " FBADs </p>");
-    if (getBADs) strArray.push("<p>" + data[4] + " BADs </p>");
-    let cash_str = getCash ? " Cash        |" : "";
-    let rbe_str = getRBE ? " RBE         |" : "";
-    let time_str = getSendTime ? " time (s) |" : "";
 
-    if (getFullRound) {
+    var seedInfoDiv = document.createElement("div");
+    seedInfoDiv.className = "seedInfo";
+    var seedText = document.createElement("h1");
+    seedText.className = "seedInfoText";
+    seedText.textContent = "Seed: " + seed;
+    seedInfoDiv.appendChild(seedText);
+    
+    if (getCash) {
+        var cashText = document.createElement("h1");
+        cashText.className = "seedInfoText";
+        cashText.textContent = data[0].toFixed(2) + " cash";
+        seedInfoDiv.appendChild(cashText);
+    }
+
+    if (getRBE) {
+        var RBEText = document.createElement("h1");
+        RBEText.className = "seedInfoText";
+        RBEText.textContent = data[1].toFixed(2) + " RBE";
+        seedInfoDiv.appendChild(RBEText);
+    }
+
+    if (getSendTime) {
+        var timeText = document.createElement("h1");
+        timeText.className = "seedInfoText";
+        timeText.textContent = data[2].toFixed(2) + " seconds";
+        seedInfoDiv.appendChild(timeText);
+    }
+
+    if (getFBADs) {
+        var FBADText = document.createElement("h1");
+        FBADText.className = "seedInfoText";
+        FBADText.textContent = data[3] + " FBADs";
+        seedInfoDiv.appendChild(FBADText);
+    }
+
+    if (getBADs) {
+        var BADText = document.createElement("h1");
+        BADText.className = "seedInfoText";
+        BADText.textContent = data[4] + " BADs";
+        seedInfoDiv.appendChild(BADText);
+    }
+
+    element.insertBefore(seedInfoDiv, element.children[0]);
+
+
+    // var strArray = [];
+    // strArray.push("<p>Seed: " + seed + "</p>");
+    // if (getCash) strArray.push("<p>" + data[0] + " cash </p>");
+    // //console.log(data[0] + "cash");
+    // if (getRBE) strArray.push("<p>" + data[1] + " RBE </p>");
+    // if (getSendTime) strArray.push("<p>" + data[2] + " seconds </p>");
+    // if (getFBADs) strArray.push("<p>" +  data[3] + " FBADs </p>");
+    // if (getBADs) strArray.push("<p>" + data[4] + " BADs </p>");
+    // let cash_str = getCash ? " Cash        |" : "";
+    // let rbe_str = getRBE ? " RBE         |" : "";
+    // let time_str = getSendTime ? " time (s) |" : "";
+
+    // if (getFullRound) {
         
 
-        strArray.push(`<p>${fmato}Bloon             | Count |${cash_str}${rbe_str}${time_str} #          |${fmatc}</p>`.replaceAll(' ', "&nbsp"));
-        strArray.push(`<p>${fmato}-------------------------------------------------------------------------------${fmatc}</p>`);
-        //console.log("here")
+    //     strArray.push(`<p>${fmato}Bloon             | Count |${cash_str}${rbe_str}${time_str} #          |${fmatc}</p>`.replaceAll(' ', "&nbsp"));
+    //     strArray.push(`<p>${fmato}-------------------------------------------------------------------------------${fmatc}</p>`);
+    //     //console.log("here")
 
-        for (let i = 0; i < data[5].length; i++) {
-            for (let j = 0; j < data[5][i].length; j++) {
-                let fmated = data[5][i][j].replaceAll(' ', useMspaceFont ? "&nbsp;" : "");
-                if (!useMspaceFont) fmated = fmated.replaceAll("|", " | ");
-                strArray.push(`<p>${fmato} ${fmated} ${fmatc}</p>`);
-                //console.log(`wrote group num: ${j}`);
-                //console.log(data[5][i][j]);
-            }
-            console.log(`wrote round num: ${i}`);
-        }
-    }
-    element.innerHTML += strArray.join('');
+    //     for (let i = 0; i < data[5].length; i++) {
+    //         for (let j = 0; j < data[5][i].length; j++) {
+    //             let fmated = data[5][i][j].replaceAll(' ', useMspaceFont ? "&nbsp;" : "");
+    //             if (!useMspaceFont) fmated = fmated.replaceAll("|", " | ");
+    //             strArray.push(`<p>${fmato} ${fmated} ${fmatc}</p>`);
+    //             //console.log(`wrote group num: ${j}`);
+    //             //console.log(data[5][i][j]);
+    //         }
+    //         console.log(`wrote round num: ${i}`);
+    //     }
+    // }
+    // element.innerHTML += strArray.join('');
 }
 
 const checkboxes = document.querySelectorAll('input');
 
 checkboxes.forEach((checkbox) => {
-    if (checkbox.value == "Nothing" | checkbox.value == "Show Full Round") {
+    if (checkbox.value == "Nothing" | checkbox.value == "Show Full Round" | checkbox.value == "Seed Resetting Mode") {
         checkbox.checked=false;
     }
     else {
@@ -619,8 +708,8 @@ async function handleProfileUpload() {
 
 
     uploadStatus.textContent = 'Uploading and processing...';
-    mapSelect.disabled = true; // Disable dropdown during upload
-    mapSelect.innerHTML = '<option value="">-- Processing --</option>'; // Update placeholder
+    // mapSelect.disabled = true; // Disable dropdown during upload
+    // mapSelect.innerHTML = '<option value="">-- Processing --</option>'; // Update placeholder
 
     const formData = new FormData();
     formData.append('file', file); // Use 'profile' as the key for the server
@@ -677,16 +766,25 @@ async function handleProfileUpload() {
 
 // --- NEW: Function to populate the map select dropdown ---
 function populateMapSelect(maps) {
+    const resettingMode = document.getElementById("resettingMode").checked;
     const mapSelect = document.getElementById('mapSelect');
+
+    const prevSelected = mapSelect.value;
+    console.log(prevSelected);
+    console.log(mapSelect);
+    console.log(mapSelect.value)
+
     mapSelect.innerHTML = ''; // Clear existing options
 
     // Add a default "select" option
-    const defaultOption = document.createElement('option');
-    defaultOption.value = '';
-    defaultOption.textContent = '-- Select a Map Save --';
-    mapSelect.appendChild(defaultOption);
+    // const defaultOption = document.createElement('option');
+    // defaultOption.value = '';
+    // defaultOption.textContent = '-- Select a Map Save --';
+    // mapSelect.appendChild(defaultOption);
 
     // Add options for each map
+    console.log(prevSelected);
+    console.log(maps);
     for (const mapName in maps) {
         if (Object.hasOwnProperty.call(maps, mapName)) {
             const option = document.createElement('option');
@@ -695,6 +793,13 @@ function populateMapSelect(maps) {
             mapSelect.appendChild(option);
         }
     }
+    if (resettingMode) {
+        console.log(prevSelected in maps);
+        if (prevSelected in maps) {
+            mapSelect.value = prevSelected;
+        }
+    }
+    
 }
 // --- MODIFIED: Form Submit Event Listener ---
 document.getElementById('roundForm').addEventListener('submit', function(event) {
@@ -707,6 +812,8 @@ document.getElementById('roundForm').addEventListener('submit', function(event) 
     const endRoundInput = document.getElementById('endRound');
     const errorElement = document.getElementById('error');
     const roundData = document.getElementById('round_data');
+
+
 
     let seed = null; // Initialize seed
     const selectedMap = mapSelect.value;
@@ -755,6 +862,11 @@ document.getElementById('roundForm').addEventListener('submit', function(event) 
         }
     })
 
+    const resettingMode = document.getElementById("resettingMode").checked;
+    const minFBadHighlight = document.getElementById("minFBadHighlight").value.trim();
+    const minBadHighlight = document.getElementById("minBadHighlight").value.trim();
+
+
     // --- MODIFIED Validation Checks ---
     let errorMessages = [];
 
@@ -793,9 +905,27 @@ document.getElementById('roundForm').addEventListener('submit', function(event) 
     } else {
         errorElement.innerHTML = '';
         // Call update_html with the determined seed
-        update_html(roundData, seed, startRound, endRound, selectedOptions);
+        update_html(roundData, seed, startRound, endRound, selectedOptions, resettingMode, minFBadHighlight, minBadHighlight);
     }
+    
 
+});
+
+document.addEventListener('click', function(event) {
+    if (event.target.classList.contains("info") | event.target.classList.contains("roundHeader") | event.target.classList.contains("header") | event.target.classList.contains("bloon") | event.target.classList.contains("bloonImg") | event.target.classList.contains("count") | event.target.classList.contains("timeline") | event.target.classList.contains("bloons")) {
+      // Your event handling logic here
+      console.log('Element with class "your-class" clicked!', event.target);
+      console.log("parentRound: ", event.target.closest(".round"));
+      console.log(event.target.closest(".round").children[1]);
+      if (event.target.closest(".round").children[1].style.display == "none"){
+        console.log(event.target.closest(".round").children[1].style.display);
+        event.target.closest(".round").children[1].style.display = "block";
+      }
+      else {
+        console.log(event.target.closest(".round").children[1].style.display);
+        event.target.closest(".round").children[1].style.display = "none";
+      }
+    }
 });
 
 // --- NEW: Add Event Listener for the Upload Button ---

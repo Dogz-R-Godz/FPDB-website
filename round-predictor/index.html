@@ -96,6 +96,23 @@
                     </div>
                 </fieldset>
 
+                <fieldset id="advancedSettings">
+                    <legend id="advancedLeg" class="advanced_leg">Advanced settings: (click to show options)</legend>
+                    <div id="advSettings">
+                        <div class="advSettings-group">
+                            <label><input type="checkbox" name="resettingMode" value="Seed Resetting Mode" id="resettingMode">Seed resetting mode</label>
+                        </div>
+                        <div class="advSettings-group">
+                            <label for="minFBadHighlight">Minimum number of FBADs to highlight a round</label>
+                            <input type="number" id="minFBadHighlight" class="advSettingsNumber" name="minFBadHighlight" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                        </div>
+                        <div class="advSettings-group">
+                            <label for="minBadHighlight">Minimum number of BADs to highlight a round</label>
+                            <input type="number" id="minBadHighlight" class="advSettingsNumber" name="minBadHighlight" min="0" step="1" required placeholder="Enter a positive integer" pattern="\d+">
+                        </div>
+                    </div>
+                </fieldset>
+
                 <button type="submit">Predict</button>
             </form>
             <p id="error" class="error"></p>
